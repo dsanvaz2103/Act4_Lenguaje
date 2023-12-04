@@ -1,0 +1,97 @@
+<instituto>
+    <clases>
+            <clase>
+                <aula>1ºDAW</aula>
+                <profesores>
+                    <profesor>
+                        <id>1</id>
+                        <nombre>Juan</nombre>
+                        <apellido>Martinez</apellido>
+                        <asignatura>Sistema informatico</asignatura>
+                    </profesor>
+                    <profesor>
+                        <id>2</id>
+                        <nombre>Lucia</nombre>
+                        <apellido>Sánchez</apellido>
+                        <asignatura>Lenguaje de Marcas</asignatura>
+                    </profesor>
+                    <profesor>
+                        <id>3</id>
+                        <nombre>María</nombre>
+                        <apellido>Gonzalez</apellido>
+                        <asignatura>Entorno de desarrollo</asignatura>
+                    </profesor>
+                    <profesor>
+                        <id>4</id>
+                        <nombre>Jose</nombre>
+                        <apellido>Atiendez</apellido>
+                        <asignatura>Base de Datos</asignatura>
+                    </profesor>
+                </profesores>
+                <alumnos>
+                    <alumno>
+                      <id>1</id>
+                      <nombre>Juan</nombre>
+                      <apellido>Pérez</apellido>
+                      <dni>5343058N</dni>
+                      <edad>23 años</edad>
+                    </alumno>
+                    <alumno>
+                      <id>2</id>  
+                      <nombre>María</nombre>
+                      <apellido>Gómez</apellido>
+                      <dni>3526123N</dni>
+                      <edad>18 años</edad>
+                    </alumno>
+                    <alumno>
+                      <id>3</id>
+                      <nombre>Pedro</nombre>
+                      <apellido>López</apellido>
+                      <dni>54360167N</dni>
+                      <edad>20 años</edad>
+
+                    </alumno>
+                </alumnos>
+                <asignaturas>
+                    <asignatura>
+                        <alumnosconesaasignatura>
+                            <id_alumno>1</id_alumno>
+                            <id_alumno>2</id_alumno>
+                        </alumnosconesaasignatura>
+                        <id_profesor>1</id_profesor>
+                        <nombreasignatura>Sistema informatico</nombreasignatura>
+                        <horarios>4 horas a la semana</horarios>
+                    </asignatura>
+                    <asignatura>
+                        <alumnosconesaasignatura>
+                            <id_alumno>1</id_alumno>
+                            <id_alumno>3</id_alumno>
+                        </alumnosconesaasignatura>
+                        <id_profesor>2</id_profesor>
+                        <nombreasignatura>Lenguaje de Marcas</nombreasignatura>
+                        <horarios>8 horas a la semana</horarios>
+                    </asignatura>
+                    <asignatura>
+                        <alumnosconesaasignatura>
+                            <id_alumno>1</id_alumno>
+                            <id_alumno>2</id_alumno>
+                            <id_alumno>3</id_alumno>
+                        </alumnosconesaasignatura>
+                        <id_profesor>3</id_profesor>
+                        <nombreasignatura>Entorno de desarrollo</nombreasignatura>
+                        <horarios>10 horas a la semana</horarios>
+                    </asignatura>
+                    <asignatura>
+                        <alumnosconesaasignatura>
+                            <id_alumno>2</id_alumno>
+                            <id_alumno>3</id_alumno>
+                        </alumnosconesaasignatura>
+                        <id_profesor>4</id_profesor>
+                        <nombreasignatura>Base de Datos</nombreasignatura>
+                        <horarios>8 horas a la semana</horarios>
+                    </asignatura>
+                </asignaturas>
+
+            </clase>
+    </clases>
+</instituto>

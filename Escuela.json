@@ -1,0 +1,111 @@
+{
+    "instituto": {
+        "clases": {
+            "clase": {
+                "aula": "1ºDAW",
+                "profesores": {
+                    "profesor": [
+                        {
+                            "id": "1",
+                            "nombre": "Juan",
+                            "apellido": "Martinez",
+                            "asignatura": "Sistema informatico"
+                        },
+                        {
+                            "id": "2",
+                            "nombre": "Lucia",
+                            "apellido": "Sánchez",
+                            "asignatura": "Lenguaje de Marcas"
+                        },
+                        {
+                            "id": "3",
+                            "nombre": "María",
+                            "apellido": "Gonzalez",
+                            "asignatura": "Entorno de desarrollo"
+                        },
+                        {
+                            "id": "4",
+                            "nombre": "Jose",
+                            "apellido": "Atiendez",
+                            "asignatura": "Base de Datos"
+                        }
+                    ]
+                },
+                "alumnos": {
+                    "alumno": [
+                        {
+                            "id": "1",
+                            "nombre": "Juan",
+                            "apellido": "Pérez",
+                            "dni": "5343058N",
+                            "edad": "23 años"
+                        },
+                        {
+                            "id": "2",
+                            "nombre": "María",
+                            "apellido": "Gómez",
+                            "dni": "3526123N",
+                            "edad": "18 años"
+                        },
+                        {
+                            "id": "3",
+                            "nombre": "Pedro",
+                            "apellido": "López",
+                            "dni": "54360167N",
+                            "edad": "20 años"
+                        }
+                    ]
+                },
+                "asignaturas": {
+                    "asignatura": [
+                        {
+                            "alumnosconesaasignatura": {
+                                "id_alumno": [
+                                    "1",
+                                    "2"
+                                ]
+                            },
+                            "id_profesor": "1",
+                            "nombreasignatura": "Sistema informatico",
+                            "horarios": "4 horas a la semana"
+                        },
+                        {
+                            "alumnosconesaasignatura": {
+                                "id_alumno": [
+                                    "1",
+                                    "3"
+                                ]
+                            },
+                            "id_profesor": "2",
+                            "nombreasignatura": "Lenguaje de Marcas",
+                            "horarios": "8 horas a la semana"
+                        },
+                        {
+                            "alumnosconesaasignatura": {
+                                "id_alumno": [
+                                    "1",
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            "id_profesor": "3",
+                            "nombreasignatura": "Entorno de desarrollo",
+                            "horarios": "10 horas a la semana"
+                        },
+                        {
+                            "alumnosconesaasignatura": {
+                                "id_alumno": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            "id_profesor": "4",
+                            "nombreasignatura": "Base de Datos",
+                            "horarios": "8 horas a la semana"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

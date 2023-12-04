@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <empleados>
+         <nombre>Juan Pérez</nombre>
+         <edad>30</edad>
+         <cargo>Desarrollador senior</cargo>
+         <salario>60000</salario>
+         <proyectos>
+             <nombre>Sistema de gestión de ventas</nombre>
+             <fecha_inicio>2023-01-15</fecha_inicio>
+             <tareas>Desarrollo de backend</tareas>
+             <tareas>Implementación de base de datos</tareas>
+         </proyectos>
+         <proyectos>
+             <nombre>Aplicación móvil de seguimiento</nombre>
+             <fecha_inicio>2023-03-20</fecha_inicio>
+             <tareas>Diseño de interfaz</tareas>
+             <tareas>Desarrollo de funcionalidades</tareas>
+         </proyectos>
+     </empleados>
+     <empleados>
+         <nombre>María López</nombre>
+         <edad>28</edad>
+         <cargo>Diseñadora UX/UI</cargo>
+         <salario>55000</salario>
+         <proyectos>
+             <nombre>Rediseño plataforma web</nombre>
+             <fecha_inicio>2023-02-10</fecha_inicio>
+             <tareas>Creación de wireframes</tareas>
+             <tareas>Prototipado interactivo</tareas>
+         </proyectos>
+         <proyectos>
+             <nombre>App de gestión de tareas</nombre>
+             <fecha_inicio>2023-04-05</fecha_inicio>
+             <tareas>Diseño de interfaz</tareas>
+             <tareas>Pruebas de usabilidad</tareas>
+         </proyectos>
+     </empleados>
+ </root>

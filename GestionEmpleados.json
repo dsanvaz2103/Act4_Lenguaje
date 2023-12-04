@@ -1,0 +1,41 @@
+{
+    "empleados": [
+      {
+        "nombre": "Juan Pérez",
+        "edad": 30,
+        "cargo": "Desarrollador senior",
+        "salario": 60000,
+        "proyectos": [
+          {
+            "nombre": "Sistema de gestión de ventas",
+            "fecha_inicio": "2023-01-15",
+            "tareas": ["Desarrollo de backend", "Implementación de base de datos"]
+          },
+          {
+            "nombre": "Aplicación móvil de seguimiento",
+            "fecha_inicio": "2023-03-20",
+            "tareas": ["Diseño de interfaz", "Desarrollo de funcionalidades"]
+          }
+        ]
+      },
+      {
+        "nombre": "María López",
+        "edad": 28,
+        "cargo": "Diseñadora UX/UI",
+        "salario": 55000,
+        "proyectos": [
+          {
+            "nombre": "Rediseño plataforma web",
+            "fecha_inicio": "2023-02-10",
+            "tareas": ["Creación de wireframes", "Prototipado interactivo"]
+          },
+          {
+            "nombre": "App de gestión de tareas",
+            "fecha_inicio": "2023-04-05",
+            "tareas": ["Diseño de interfaz", "Pruebas de usabilidad"]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <root>
+        <proyectos>
+            <id>1</id>
+            <nombre>Sistema de Gestión</nombre>
+            <equipo>
+                <id>101</id>
+                <nombre>Juan Pérez</nombre>
+            </equipo>
+            <equipo>
+                <id>102</id>
+                <nombre>María Rodríguez</nombre>
+                <id>108</id>
+                <nombre>Luis María Sánchez</nombre>
+            </equipo>
+            <tareas>
+                <id>201</id>
+                <descripcion>Diseño de la interfaz</descripcion>
+                <completada>true</completada>
+            </tareas>
+            <tareas>
+                <id>202</id>
+                <descripcion>Desarrollo del backend</descripcion>
+                <completada>true</completada>
+            </tareas>
+        </proyectos>
+        <proyectos>
+            <id>2</id>
+            <nombre>Aplicación Móvil</nombre>
+            <equipo>
+                <id>103</id>
+                <nombre>Carlos Gómez</nombre>
+            </equipo>
+            <equipo>
+                <id>104</id>
+                <nombre>Ana López</nombre>
+            </equipo>
+            <tareas>
+                <id>203</id>
+                <descripcion>Desarrollo de funciones principales</descripcion>
+                <completada>true</completada>
+            </tareas>
+            <tareas>
+                <id>204</id>
+                <descripcion>Pruebas de rendimiento</descripcion>
+                <completada>true</completada>
+            </tareas>
+        </proyectos>
+        <proyectos>
+            <id>3</id>
+            <nombre>Sistema operativo</nombre>
+            <equipo>
+                <id>104</id>
+                <nombre>Lucia Marchante</nombre>
+            </equipo>
+            <equipo>
+                <id>105</id>
+                <nombre>Jose Luis</nombre>
+            </equipo>
+            <tareas>
+                <id>205</id>
+                <descripcion>Instalación y mantenimiento del sistema operativo</descripcion>
+                <completada>true</completada>
+            </tareas>
+            <tareas>
+                <id>206</id>
+                <descripcion>Pruebas de seguridad</descripcion>
+                <completada>true</completada>
+            </tareas>
+        </proyectos>
+    </root>

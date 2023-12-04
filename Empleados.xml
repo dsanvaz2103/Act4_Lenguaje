@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <empleados>
+         <id>1</id>
+         <nombre>Juan Pérez</nombre>
+         <cargo>Desarrollador</cargo>
+         <salario>55000</salario>
+         <salario10porciento>5500</salario10porciento>
+     </empleados>
+     <empleados>
+         <id>2</id>
+         <nombre>María Rodríguez</nombre>
+         <cargo>Analista de Datos</cargo>
+         <salario>60000</salario>
+         <salario10porciento>6000</salario10porciento>
+     </empleados>
+     <empleados>
+         <id>3</id>
+         <nombre>Carlos Gómez</nombre>
+         <cargo>Diseñador</cargo>
+         <salario>75000</salario>
+         <salario10porciento>7500</salario10porciento>
+     </empleados>
+ </root>
